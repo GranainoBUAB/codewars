@@ -18,7 +18,7 @@ function getPercentage($sent,$limit = -1): string {
       return ("Daily limit is reached");
     }
 
-    return (floor($sent/$limit*100));
+    return (floor($sent/$limit*100)."%");
    
     
   }
